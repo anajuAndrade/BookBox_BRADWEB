@@ -1,4 +1,4 @@
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,31 @@
 
 .read-the-docs {
   color: #888;
+}*/
+
+.cabecalho {
+  background-color: '#f1f1f1';
+  padding: '10px';
+  display: 'flex';
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#nomeSite {
+  font-weight: bold;
+}
+
+#menuNavegacao{
+  display: 'flex';
+  color: black;
+  gap: '20px';
+}
+
+#barraPesquisa {
+  padding: '5px';
+  border-radius: '5px';
+  border: '1px solid #ccc'
 }

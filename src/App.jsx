@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+/*function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -32,4 +32,25 @@ function App() {
   )
 }
 
-export default App
+export default App*/
+
+function BookSite() {
+  return (
+    <nav class='cabecalho'>
+      <div id='nomeSite'>SITE DE LIVROS</div>
+      <div id='menuNavegacao'>
+        <a href="#home">HOME</a>
+        <a href="#genres">GENEROS</a>
+        <a href="#community">COMUNIDADE</a>
+        <a href="#lists">LISTAS</a>
+      </div>
+      <input id='barraPesquisa'
+        type="text"
+        placeholder="Buscar"
+        style={{ padding: '5px', borderRadius: '5px', border: '1px solid #ccc' }}
+      />
+    </nav>
+  );
+}
+
+export default BookSite;
