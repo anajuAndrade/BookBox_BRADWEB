@@ -1,26 +1,32 @@
 .cabecalho {
-  background-color: '#f1f1f1';
-  padding: '10px';
-  display: 'flex';
-  justify-content: space-between;
-  align-items: center;
-
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
-#nomeSite {
+.cabecalhoo {
+  background-color: #f1f1f1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nomeSite {
   font-weight: bold;
 }
 
-#menuNavegacao {
-  display: 'flex';
-  color: black;
-  gap: '20px';
+.telasNavegacao {
+  display: flex;
+  gap: 20px;
 }
 
-#barraPesquisa {
-  padding: '5px';
-  border-radius: '5px';
-  border: '1px solid #ccc'
+.telasNavegacao a {
+  text-decoration: none;
+  color: black;
+}
+
+.pesquisa {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }

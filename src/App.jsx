@@ -3,19 +3,18 @@ import './App.css'
 
 function BookSite() {
   return (
-    <nav class='cabecalho'>
-      <div id='nomeSite'>SITE DE LIVROS</div>
-      <div id='menuNavegacao'>
-        <a href="#home">HOME</a>
-        <a href="#genres">GENEROS</a>
-        <a href="#community">COMUNIDADE</a>
-        <a href="#lists">LISTAS</a>
-      </div>
-      <input id='barraPesquisa'
-        type="text"
-        placeholder="Buscar"
-      />
-    </nav>
+    <div className="cabecalho">
+      <nav className="cabecalhoo">
+        <span className="nomeSite">SITE DE LIVROS</span>
+        <div className="telasNavegacao">
+          <a href="#home">HOME</a>
+          <a href="#genres">GÊNEROS</a>
+          <a href="#community">COMUNIDADE</a>
+          <a href="#lists">LISTAS</a>
+        </div>
+        <input type="text" placeholder="Buscar" className="pesquisa" />
+      </nav>
+    </div>
   );
 }
 
