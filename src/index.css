@@ -1,5 +1,4 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -9,12 +8,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+
+
   --cremeClaro: #feffed;
   --creme: #fdffd9;
   --ocre: #fff0b8;
   --laranja: #ffd6a3;
   --salmao: #faad8e;
   --verde: #142f30;
+  
 }
 
 /* a {
@@ -70,3 +72,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }*/
+
+/* Css comunidade */
+
+#titulo{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Fim css comunidade */
