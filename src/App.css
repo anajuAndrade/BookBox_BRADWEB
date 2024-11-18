@@ -1,14 +1,14 @@
-body{
+body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--verde);
   background-color: var(--cremeClaro);
 }
+
 .cabecalho {
   text-align: center;
 }
 
 .cabecalhoo {
-  /* background-color: #f1f1f1; */
   background-color: var(--creme);
   padding: 10px;
   display: flex;
@@ -30,8 +30,21 @@ body{
   color: var(--verde);
 }
 
-.pesquisa {
-  padding: 5px;
-  border-radius: 5px;
+.barraPesquisa {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
   border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  width: 150px;
+  transition: width 0.3s ease;
+}
+
+.barraPesquisa:focus {
+  width: 200px;
+  outline: none;
+  border-color: #666; /* Realce na borda */
 }

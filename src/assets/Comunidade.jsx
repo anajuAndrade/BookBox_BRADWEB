@@ -1,4 +1,3 @@
-
 import { Container, Row, Col } from 'react-bootstrap';
 import qrCode from './img/qrCode.jpeg';
 import evParceirosex from './img/evParceirosex.png'
