@@ -1,6 +1,4 @@
-import React from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -35,6 +33,10 @@ export default function Home() {
                 <span className="Icone">→</span>
             </div>
 
+            <div className="Espaco"></div>
+            <div className="Espaco"></div> 
+            <div className="Espaco"></div>
+
             {/*Gênero 2*/}
             <div className="Genero Lírico">
                 <span>LÍRICO</span>
@@ -64,6 +66,10 @@ export default function Home() {
                 <span>ÉCLOGA</span>
                 <span className="Icone">→</span>
             </div>
+
+            <div className="Espaco"></div>
+            <div className="Espaco"></div> 
+            <div className="Espaco"></div>
 
             {/*Gênero 3*/}
             <div className="Genero Dramático">
