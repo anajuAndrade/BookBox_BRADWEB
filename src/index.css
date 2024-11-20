@@ -12,8 +12,11 @@
 
   /* Tabela de Cores */
   --branco: #fcfef5;
-  --cinzaClaro: #ccc;
+  --cinzaClaro: #e2e2e2;
+  --cinzaEscuro: #555;
+  --cinzaMaisEscuro: #333;
   --preto: #000000;
+
   --verdeSuave: #d6e6c3;
   --cremeClaro: #feffed;
   --creme: #fdffd9;

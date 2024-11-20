@@ -1,116 +1,111 @@
-/* Geral */
+/* Configurações gerais */
+
 .footer {
-    background-color: #f9f9f9;
+    max-width: 100% !important;
+
+    background-color: var(--cinzaClaro);
     font-family: 'Arial', sans-serif;
-    color: #555;
+    color: var(--cinzaEscuro);
     padding: 20px 40px;
-  }
-  
-  .footer-container {
-    max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .footer h4 {
+}
+
+.footer h4 {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 12px;
-    color: #333;
-  }
-  
-  .footer a {
-    color: #555;
+    color: var(--cinzaMaisEscuro);
+}
+
+.footer a {
+    color: var(--cinzaEscuro);
     text-decoration: none;
     transition: color 0.3s ease;
-  }
-  
-  .footer a:hover {
+}
+
+.footer a:hover {
     color: #007bff;
-  }
-  
-  /* Topo do Footer */
-  .footer-top {
+}
+
+/* Topo do Footer */
+
+.footerInfos {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
     justify-content: space-between;
     padding-bottom: 20px;
     border-bottom: 1px solid #ddd;
-  }
-  
-  .footer-section {
+}
+
+.informações {
     flex: 1;
     min-width: 200px;
-  }
-  
-  .footer-section ul {
+    margin: 0.5% 0 0 10%;
+}
+
+.informações ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .footer-section ul li {
+}
+
+.informações ul li {
     margin-bottom: 8px;
     font-size: 14px;
-  }
-  
-  /* Links Sociais */
-  .social-links li {
-    display: inline;
-    margin-right: 15px;
-  }
-  
-  .social-links li a {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  /* Rodapé */
-  .footer-bottom {
+}
+
+/* Final do Footer */
+
+.infosGerais {
     text-align: center;
     margin-top: 20px;
     font-size: 12px;
     color: #777;
-  }
-  
-  .footer-bottom p {
+}
+
+.infosGerais p {
     margin: 5px 0;
-  }
-  
-  .footer-links {
+}
+
+.termos {
     list-style: none;
     padding: 0;
     margin: 10px 0;
     display: flex;
     justify-content: center;
     gap: 15px;
-  }
-  
-  .footer-links li {
+}
+
+.termos li {
     font-size: 12px;
-  }
-  
-  .footer-note {
+}
+
+.nota {
     margin-top: 10px;
     font-size: 11px;
     color: #999;
-  }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .footer-top {
-      flex-direction: column;
-      align-items: center;
+}
+
+.falsoLink :hover {
+    color: #007bff;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+    .footerInfos {
+        flex-direction: column;
+        align-items: center;
     }
-  
-    .footer-section {
-      text-align: center;
-      margin-bottom: 20px;
+
+    .informações {
+        text-align: center;
+        margin-bottom: 20px;
     }
-  
-    .footer-links {
-      flex-direction: column;
-      gap: 10px;
+
+    .termos {
+        flex-direction: column;
+        gap: 10px;
     }
-  }
-  
+}

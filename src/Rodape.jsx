@@ -1,53 +1,73 @@
-import "./Rodape.css";
+import "./Rodape.css"
 
 export default function Rodape() {
-  return (
-<footer className="footer">
-      <div className="footer-container">
-        <div className="footer-top">
-          <div className="footer-section">
-            <h4>Mapa do Site</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Gêneros</a></li>
-              <li><a href="#">Comunidade</a></li>
-              <li><a href="#">Listas</a></li>
-            </ul>
-          </div>
-          <div className="footer-section">
-            <h4>Desenvolvido Por</h4>
-            <ul>
-              <li><a href="https://github.com/anajuAndrade">Ana Julia Ev. Andrade</a></li>
-              <li><a href="https://github.com/Isabelly-Nathalia">Isabelly Nathalia M. da Rocha</a></li>
-              <li><a href="https://github.com/paolaabrantes">Paola Abrantes</a></li>
-            </ul>
-          </div>
-          <div className="footer-section">
-            <h4>Siga-nos</h4>
-            <ul className="social-links">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">YouTube</a></li>
-              <li><a href="#">LinkedIn</a></li>
-            </ul>
-          </div>
-        </div>
+    return (
+        <footer className="footer">
+            <div className="footerInfos">
 
-        {/*COLOCAR PARA QUAND PASSAR O MOUSE, FICAR AZUL*/}
-        <div className="footer-bottom">
-          <p>Copyright © 2024 BookBox. Todos os direitos reservados.</p>
-          <ul className="footer-links">
-            <li>Acessibilidade</li>
-            <li>Termos & Condições</li>
-            <li>Privacidade</li>
-            <li>Legal</li>
-          </ul>
-          <p className="footer-note">
-            Este website é melhor visualizado nas versões mais recentes do Google Chrome.
-          </p>
-        </div>
-      </div>
-    </footer>
-  );
+                {/* Configurar rotas */}
+                <div className="informações">
+                    <h4>Mapa do Site</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Gêneros</a></li>
+                        <li><a href="#">Comunidade</a></li>
+                        <li><a href="#">Listas</a></li>
+                    </ul>
+                </div>
+
+                <div className="informações">
+                    <h4>Desenvolvido Por</h4>
+                    <ul>
+                        <li><a href="https://github.com/anajuAndrade" target="blank">Ana Julia Ev. Andrade</a></li>
+                        <li><a href="https://github.com/Isabelly-Nathalia" target="blank">Isabelly Nathalia M. da Rocha</a></li>
+                        <li><a href="https://github.com/paolaabrantes" target="blank">Paola Abrantes</a></li>
+                    </ul>
+                </div>
+
+                <div className="informações">
+                    <h4>Siga-nos</h4>
+                    <ul className="social-links">
+                        <div class='falsoLink'>
+                            <li>Facebook</li>
+                        </div>
+                        <div class='falsoLink'>
+                            <li>Twitter</li>
+                        </div>
+                        <div class='falsoLink'>
+                            <li>Instagram</li>
+                        </div>
+                        <div class='falsoLink'>
+                            <li>YouTube</li>
+                        </div>
+                        <div class='falsoLink'>
+                            <li>LinkedIn</li>
+                        </div>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div className="infosGerais">
+                <p>Copyright © 2024 BookBox. Todos os direitos reservados.</p>
+                <ul className="termos">
+                    <div class='falsoLink'>
+                        <li>Acessibilidade</li>
+                    </div>
+                    <div class='falsoLink'>
+                        <li>Termos & Condições</li>
+                    </div>
+                    <div class='falsoLink'>
+                        <li>Privacidade</li>
+                    </div>
+                    <div class='falsoLink'>
+                        <li>Legal</li>
+                    </div>
+                </ul>
+                <p className="nota">
+                    Este website é melhor visualizado nas versões mais recentes do Google Chrome.
+                </p>
+            </div>
+        </footer>
+    );
 }
