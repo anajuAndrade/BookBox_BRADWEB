@@ -1,15 +1,6 @@
-body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--verde);
-  background-color: var(--cremeClaro);
-}
-
 .cabecalho {
-  text-align: center;
-}
-
-.cabecalhoo {
-  background-color: var(--creme);
+  font-weight: bold;
+  background-color: var(--verdeSuave);
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -27,7 +18,7 @@ body {
 
 .telasNavegacao a {
   text-decoration: none;
-  color: var(--verde);
+  color: var(--preto);
 }
 
 .barraPesquisa {
@@ -35,7 +26,7 @@ body {
   align-items: center;
   gap: 8px;
 
-  border: 1px solid #ccc;
+  border: 1px solid var(--cinzaClaro);
   border-radius: 20px;
   padding: 5px 10px;
   font-size: 14px;
@@ -43,8 +34,9 @@ body {
   transition: width 0.3s ease;
 }
 
+/* Realce */
 .barraPesquisa:focus {
   width: 200px;
   outline: none;
-  border-color: #666; /* Realce na borda */
+  border-color: #666;
 }

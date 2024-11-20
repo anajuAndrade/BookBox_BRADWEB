@@ -1,14 +1,12 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Menu from './assets/Menu';
-import Comunidade from './assets/Comunidade';
-import Lists from './assets/Lists';
-import { useState } from 'react'
-import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Menu from './assets/Cabecalho'
+import Comunidade from './assets/Comunidade'
+import Lists from './assets/Lists'
 import './index.css'
+import './Cabecalho.css'
 
-function BookSite() {
+export default function Rotas() {
   return (
-    <>
     <Router>
       <Menu />
       <Routes>
@@ -18,8 +16,5 @@ function BookSite() {
         <Route path="/Lists" element={<Lists />} />
       </Routes>
     </Router>
-    </>
   );
 }
-
-export default BookSite;
