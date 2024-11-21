@@ -1,47 +1,47 @@
 .lists-container {
-    display: flex;
-    flex-direction: column; 
-    gap: 20px;
-  }
-  
-  /* perfil */
-  .profile-card {
-    padding: 15px;
-    border-radius: 10px;
-    width: 100%; 
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-  .profile-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }  
-  
-  .profile-icon {
-    font-size: 40px;
-    margin-right: 10px;
-  }
-  
-  .profile-info {
-    display: flex;
-    flex-direction: column;
-  }
+/* perfil */
+.profile-card {
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+}
 
-  .profile-info h3 {
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info h3 {
   margin: 0;
   font-size: 18px;
-  }
-  
-  .profile-info p {
-    margin: 0;
-    color: #666;
-  }
-  
-  /* lista de fotos */
+}
+
+.profile-info p {
+  margin: 0;
+  color: #666;
+}
+
+/* lista de fotos */
 .photo-grid {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto; 
+  overflow-x: auto;
 }
 
 .photo-item {
@@ -51,26 +51,26 @@
   border-radius: 5px;
   margin: 10px;
 }
-  
+
 /* botao de adiconar lista */
 .add-list-icon {
-    position: fixed; 
-    bottom: 20px; 
-    right: 20px; 
-    background-color: var(--creme); 
-    color: var(--verde); 
-    border-radius: 50%;  
-    width: 50px;
-    height: 50px; 
-    display: flex; 
-    justify-content: center;  
-    align-items: center; 
-    font-size: 24px; 
-    cursor: pointer; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  }
-  
-  .add-list-icon:hover {
-    background-color: var(--ocre);  /* Cor de fundo quando o mouse passa por cima */
-  }
-  
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--creme);
+  color: var(--verde);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-list-icon:hover {
+  background-color: var(--ocre);
+  /* Cor de fundo quando o mouse passa por cima */
+}

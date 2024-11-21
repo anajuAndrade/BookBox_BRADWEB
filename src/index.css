@@ -1,4 +1,5 @@
 /* Configurações gerais */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
   line-height: 1.5;
@@ -10,6 +11,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  --fontPadrao: "Bebas Neue", sans-serif;
   /* Tabela de Cores */
   --branco: #fcfef5;
   --cinzaClaro: #e2e2e2;
@@ -36,4 +38,5 @@
 
 body {
   max-width: 100% !important;
+  font-family: "Bebas Neue", sans-serif;
 }

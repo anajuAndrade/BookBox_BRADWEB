@@ -1,5 +1,5 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import qrCode from './img/qrCode.jpeg';
+import { Container, Row, Col } from 'react-bootstrap'
+import qrCode from './img/qrCode.jpeg'
 import evParceirosex from './img/evParceirosex.png'
 
 export default function Comunidade() {
@@ -29,8 +29,8 @@ export default function Comunidade() {
               <div
                 className="bg-light rounded mx-auto"
                 style={{
-                  width: '75%',  
-                  paddingTop: '75%',  
+                  width: '75%',
+                  paddingTop: '75%',
                   position: 'relative',
                   overflow: 'hidden'
                 }}
@@ -45,8 +45,8 @@ export default function Comunidade() {
               <div
                 className="bg-light rounded mx-auto"
                 style={{
-                  width: '75%',  
-                  paddingTop: '75%',  
+                  width: '75%',
+                  paddingTop: '75%',
                   position: 'relative',
                   overflow: 'hidden'
                 }}
@@ -61,8 +61,8 @@ export default function Comunidade() {
               <div
                 className="bg-light rounded mx-auto"
                 style={{
-                  width: '75%',  
-                  paddingTop: '75%',  
+                  width: '75%',
+                  paddingTop: '75%',
                   position: 'relative',
                   overflow: 'hidden'
                 }}

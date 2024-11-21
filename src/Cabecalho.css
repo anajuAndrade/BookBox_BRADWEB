@@ -1,14 +1,23 @@
 .cabecalho {
-  font-weight: bold;
-  background-color: var(--verdeSuave);
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  padding: 20px 3%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  font-family: var(--fontPadrao);
+  font-size: 1.5em;
+  font-style: normal;
+  color: var(--branco);
+  background-image: url(./assets/img/fundoHome.jpg);
 }
 
-.nomeSite {
-  font-weight: bold;
+.nomeSite:hover {
+  text-decoration: underline;
 }
 
 .telasNavegacao {
@@ -18,7 +27,7 @@
 
 .telasNavegacao a {
   text-decoration: none;
-  color: var(--preto);
+  color: var(--branco);
 }
 
 .barraPesquisa {

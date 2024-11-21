@@ -1,6 +1,6 @@
-import React from 'react';
-import './Lists.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import React from 'react'
+import './Lists.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 function Lists() {
   const listaDePerfis = [
@@ -41,7 +41,7 @@ function Lists() {
       {listaDePerfis.map((perfil) => (
         <div key={perfil.id} className="profile-card">
           <div className="profile-header">
-          <i class="bi bi-person-circle profile-icon"></i>
+            <i class="bi bi-person-circle profile-icon"></i>
             <div className="profile-info">
               <h3>{perfil.nomePerfil}</h3>
               <h3>{perfil.nomeLista}</h3>

@@ -1,8 +1,31 @@
-body,
-html {
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    font-family: var(--fontPadrao);
+    color: var(--branco);
+    text-align: center;
+    background-image: url(./img/fundoHome.jpg);
+}
+
+.apresentacao h1 {
+    font-size: 15rem;
+    font-weight: bold;
     margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+}
+
+.frase {
+    font-size: 2rem;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.autor {
+    font-size: 1.5rem;
+    margin: -8px 0;
 }
 
 .Generos {
@@ -11,7 +34,7 @@ html {
     gap: 10px;
     padding: 20px;
     max-width: 60%;
-    margin: auto;
+    margin: 120px auto 120px;    
 }
 
 .Genero,
@@ -37,11 +60,25 @@ html {
     letter-spacing: .2rem;
 }
 
-.sub1 {background-color: #e0e0e0;}
-.sub2 {background-color: #e0e0e0;}
-.sub3 {background-color: #e0e0e0;}
-.sub4 {background-color: #e0e0e0;}
-.sub5 {background-color: #e0e0e0;}
+.sub1 {
+    background-color: #e0e0e0;
+}
+
+.sub2 {
+    background-color: #e0e0e0;
+}
+
+.sub3 {
+    background-color: #e0e0e0;
+}
+
+.sub4 {
+    background-color: #e0e0e0;
+}
+
+.sub5 {
+    background-color: #e0e0e0;
+}
 
 .Icone {
     position: absolute;
@@ -61,4 +98,4 @@ html {
 
 .Espaco {
     margin-bottom: 50%;
-} 
+}
