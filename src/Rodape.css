@@ -55,6 +55,18 @@
     font-size: 14px;
 }
 
+.rotas {
+    list-style: none;
+    padding: 0;
+    margin: -3px 0 0 0;
+    line-height: 1.8;
+}
+
+.links {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
 /* Final do Footer */
 
 .infosGerais {

@@ -9,12 +9,12 @@ export default function Rodape() {
                 {/* Configurar rotas */}
                 <div className="informações">
                     <h4>Mapa do Site</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Gêneros</a></li>
-                        <li><a href="#">Comunidade</a></li>
-                        <li><a href="#">Listas</a></li>
-                    </ul>
+                    <div class='rotas'>
+                        <Link to="/Home" class='links'>Home<br></br></Link>
+                        <Link to="/Generos" class='links'>Gêneros<br></br></Link>
+                        <Link to="/Comunidade" class='links'>Comunidade<br></br></Link>
+                        <Link to="/lists" class='links'>Listas<br></br></Link>
+                    </div>
                 </div>
 
                 <div className="informações">
