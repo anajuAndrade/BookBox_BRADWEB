@@ -1,11 +1,12 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import qrCode from './img/qrCode.jpeg'
 import evParceirosex from './img/evParceirosex.png'
+import "./Comunidade.css"
 
 export default function Comunidade() {
   return (
     <>
-      <div id="comunidade">
+      <div class="comunidade">
         <Container className="my-5">
           <div id="header" className="text-center mb-4">
             <h1 id="titulo">COMUNIDADE</h1>
