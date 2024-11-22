@@ -35,7 +35,7 @@ function Lists() {
     }
   ];
 
-  return (
+  return ( 
     <div className="lists-container">
       <h1 className="title">LISTAS</h1>
         {listaDePerfis.map((perfil) => (
