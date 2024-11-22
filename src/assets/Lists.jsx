@@ -32,6 +32,34 @@ function Lists() {
         'https://m.media-amazon.com/images/I/71xh-XoYyaL._AC_UF1000,1000_QL80_.jpg',
         'https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9788565765480/mentirosos-sucesso-no-tiktok.jpg'
       ],
+    },
+
+    {
+      id: 1,
+      nomePerfil: 'Paola Abrantes',
+      nomeLista: 'Livros Lidos em 2024',
+      fotos: [
+        'https://m.media-amazon.com/images/I/71ivq+NMtZL._SY342_.jpg',
+        'https://m.media-amazon.com/images/I/A16dAJ1dHfL._SY342_.jpghttps://m.media-amazon.com/images/I/A16dAJ1dHfL._SY342_.jpg',
+        'https://m.media-amazon.com/images/I/61sIgjajpSL._SY445_SX342_.jpg',
+        'https://m.media-amazon.com/images/I/A1rIilGO9sL._SY342_.jpg',
+        'https://m.media-amazon.com/images/I/91cNc4sY0gL._SY342_.jpg',
+        'https://m.media-amazon.com/images/I/512HkHQ4ZmL._SY445_SX342_.jpg',
+        'https://m.media-amazon.com/images/I/81i80Ar4IAL._SY342_.jpg',
+        'https://m.media-amazon.com/images/I/41HXe7Zdu5L._SY445_SX342_.jpg'
+      ],
+    },
+
+    {
+      id: 1,
+      nomePerfil: 'Paola Abrantes',
+      nomeLista: 'Quero Ler',
+      fotos: [
+        'https://m.media-amazon.com/images/I/61MrmHGQbZL._SY342_.jpg',
+        'https://m.media-amazon.com/images/I/71mWm5Oq7cL._SY342_.jpg',
+        'https://m.media-amazon.com/images/I/71x-i7sKSvL._SY342_.jpg',
+        'https://m.media-amazon.com/images/I/51aLmULO+LL._SY445_SX342_.jpg'
+      ],
     }
   ];
 
