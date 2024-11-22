@@ -24,7 +24,7 @@ function Lists() {
     {
       id: 2,
       nomePerfil: 'Ana Julia Ev. Andrade',
-      nomeLista: 'Quero Ler',
+      nomeLista: 'Próximas Leituras',
       fotos: [
         'https://m.media-amazon.com/images/I/61QhNRjycfL._AC_UF1000,1000_QL80_.jpg',
         'https://m.media-amazon.com/images/I/81ZYw08O2bL._UF894,1000_QL80_.jpg',
@@ -53,7 +53,7 @@ function Lists() {
     {
       id: 1,
       nomePerfil: 'Paola Abrantes',
-      nomeLista: 'Quero Ler',
+      nomeLista: 'Próximas Leituras',
       fotos: [
         'https://m.media-amazon.com/images/I/61MrmHGQbZL._SY342_.jpg',
         'https://m.media-amazon.com/images/I/71mWm5Oq7cL._SY342_.jpg',
