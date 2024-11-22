@@ -1,4 +1,5 @@
 /* Configurações gerais */
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
@@ -39,4 +40,18 @@
 body {
   max-width: 100% !important;
   font-family: "Bebas Neue", sans-serif;
+}
+
+/* Barra de Rolagem Personalizada */
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: var(--preto);
+}
+
+html ::-webkit-scrollbar-track {
+  background: var(--cinzaClaro);
 }

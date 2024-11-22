@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Generos.css"
 
 export default function Generos() {

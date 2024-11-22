@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
+import React from 'react'
 import qrCode from './img/qrCode.jpeg'
 import evParceirosex from './img/evParceirosex.png'
 import "./Comunidade.css"

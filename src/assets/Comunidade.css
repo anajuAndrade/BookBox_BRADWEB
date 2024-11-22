@@ -43,22 +43,3 @@ p.text-center strong {
   color: var(--preto);
   font-size: 1.5rem;
 }
-
-@media (max-width: 768px) {
-  #titulo {
-    font-size: 2rem;
-  }
-
-  #subtitulo h2 {
-    font-size: 1.5rem;
-  }
-
-  .text-start p,
-  p.text-center {
-    font-size: 0.9rem;
-  }
-
-  .text-start strong {
-    font-size: 1.1rem;
-  }
-}
