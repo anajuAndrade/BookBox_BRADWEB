@@ -6,7 +6,7 @@ function Lists() {
   const listaDePerfis = [
     {
       id: 1,
-      nomePerfil: 'Ana Julia Ev. Andrade',
+      nomePerfil: 'Isabelly Nathália',
       nomeLista: 'Livros Lidos em 2024',
       fotos: [
         'https://m.media-amazon.com/images/I/61QhNRjycfL._AC_UF1000,1000_QL80_.jpg',
@@ -23,14 +23,15 @@ function Lists() {
 
     {
       id: 2,
-      nomePerfil: 'Ana Julia Ev. Andrade',
-      nomeLista: 'Próximas Leituras',
+      nomePerfil: 'Ana Julia',
+      nomeLista: 'Lidos em 2024',
       fotos: [
-        'https://m.media-amazon.com/images/I/61QhNRjycfL._AC_UF1000,1000_QL80_.jpg',
-        'https://m.media-amazon.com/images/I/81ZYw08O2bL._UF894,1000_QL80_.jpg',
-        'https://m.media-amazon.com/images/I/61TCwzWV9hL._AC_UF1000,1000_QL80_.jpg',
-        'https://m.media-amazon.com/images/I/71xh-XoYyaL._AC_UF1000,1000_QL80_.jpg',
-        'https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9788565765480/mentirosos-sucesso-no-tiktok.jpg'
+        'https://m.media-amazon.com/images/I/71jrp43TCcL.jpg',
+        'https://m.media-amazon.com/images/I/81IB63g5V2L._UF894,1000_QL80_.jpg',
+        'https://m.media-amazon.com/images/I/71CO39Q9WZL._UF894,1000_QL80_.jpg',
+        'https://m.media-amazon.com/images/I/81YbCXxpP6L._UF894,1000_QL80_.jpg',
+        'https://cirandacultural.fbitsstatic.net/img/p/madame-bovary-70962/257479.jpg?w=520&h=520&v=no-change&qs=ignore',
+        'https://m.media-amazon.com/images/I/816a7zMD+FL.jpg'
       ],
     },
 
@@ -69,8 +70,7 @@ function Lists() {
         {listaDePerfis.map((perfil) => (
           <div key={perfil.id} className="profile-section">
             <div className="profile-header">
-            <div className="verified-icon">✔</div>
-              {/*<i class="bi bi-person-circle profile-icon"></i>*/}
+              <i class="bi bi-person-circle profile-icon"></i>
               <div className="profile-info">
                 <h3 id='nameProfile'>{perfil.nomePerfil}</h3>
                 <h3>{perfil.nomeLista}</h3>
