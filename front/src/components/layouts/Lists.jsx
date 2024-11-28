@@ -1,6 +1,5 @@
-import React from 'react'
-import './Lists.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
+import '../../css/lists.css'
 
 function Lists() {
   const listaDePerfis = [

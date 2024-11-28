@@ -13,7 +13,7 @@
   font-size: 1.5em;
   font-style: normal;
   color: var(--branco);
-  background-image: url(./assets/img/fundoHome.jpg);
+  background-image: url(../assets/fundoHome.jpg);
 }
 
 .nomeSite:hover {

@@ -1,5 +1,4 @@
-import React from 'react'
-import "./Generos.css"
+import "../../css/generos.css"
 
 export default function Generos() {
     return (

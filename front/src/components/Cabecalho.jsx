@@ -5,7 +5,7 @@ export default function Cabecalho() {
     <nav className="cabecalho">
       <span className="nomeSite">BOOKBOX</span>
       <div className="telasNavegacao">
-        <Link to="/Home">HOME</Link>
+        <Link to="/">HOME</Link>
         <Link to="/Generos">GÊNEROS</Link>
         <Link to="/Comunidade">COMUNIDADE</Link>
         <Link to="/lists">LISTAS</Link>

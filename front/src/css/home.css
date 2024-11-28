@@ -8,7 +8,7 @@
     font-family: var(--fontPadrao);
     color: var(--branco);
     text-align: center;
-    background-image: url(./img/fundoHome.jpg);
+    background-image: url(../assets/fundoHome.jpg   );
 }
 
 .apresentacao h1 {

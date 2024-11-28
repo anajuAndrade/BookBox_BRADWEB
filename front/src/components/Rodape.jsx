@@ -1,4 +1,3 @@
-import "./Rodape.css"
 import { Link } from 'react-router-dom'
 
 export default function Rodape() {
@@ -6,11 +5,10 @@ export default function Rodape() {
         <footer className="footer">
             <div className="footerInfos">
 
-                {/* Configurar rotas */}
                 <div className="informações">
                     <h4>Mapa do Site</h4>
                     <div class='rotas'>
-                        <Link to="/Home" class='links'>Home<br></br></Link>
+                        <Link to="/" class='links'>Home<br></br></Link>
                         <Link to="/Generos" class='links'>Gêneros<br></br></Link>
                         <Link to="/Comunidade" class='links'>Comunidade<br></br></Link>
                         <Link to="/lists" class='links'>Listas<br></br></Link>

@@ -1,8 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import React from 'react'
-import qrCode from './img/qrCode.jpeg'
-import evParceirosex from './img/evParceirosex.png'
-import "./Comunidade.css"
+import qrCode from '../../assets/qrCode.jpeg'
+import evParceirosex from '../../assets/evParceirosex.png'
+import "../../css/comunidade.css"
 
 export default function Comunidade() {
   return (
