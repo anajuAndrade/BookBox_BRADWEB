@@ -8,10 +8,10 @@ export default function Rodape() {
                 <div className="informações">
                     <h4>Mapa do Site</h4>
                     <div class='rotas'>
-                        <Link to="/" class='links'>Home<br></br></Link>
-                        <Link to="/Generos" class='links'>Gêneros<br></br></Link>
-                        <Link to="/Comunidade" class='links'>Comunidade<br></br></Link>
-                        <Link to="/lists" class='links'>Listas<br></br></Link>
+                        <Link to="/" class='links' onClick={() => window.scrollTo(0, 0)}>Home<br></br></Link>
+                        <Link to="/Generos" class='links' onClick={() => window.scrollTo(0, 0)}>Gêneros<br></br></Link>
+                        <Link to="/Comunidade" class='links' onClick={() => window.scrollTo(0, 0)}>Comunidade<br></br></Link>
+                        <Link to="/lists" class='links' onClick={() => window.scrollTo(0, 0)}>Listas<br></br></Link>
                     </div>
                 </div>
 

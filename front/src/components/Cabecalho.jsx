@@ -5,10 +5,10 @@ export default function Cabecalho() {
     <nav className="cabecalho">
       <span className="nomeSite">BOOKBOX</span>
       <div className="telasNavegacao">
-        <Link to="/">HOME</Link>
-        <Link to="/Generos">GÊNEROS</Link>
-        <Link to="/Comunidade">COMUNIDADE</Link>
-        <Link to="/lists">LISTAS</Link>
+        <Link to="/" onClick={() => window.scrollTo(0, 0)}>HOME</Link>
+        <Link to="/Generos" onClick={() => window.scrollTo(0, 0)}>GÊNEROS</Link>
+        <Link to="/Comunidade" onClick={() => window.scrollTo(0, 0)}>COMUNIDADE</Link>
+        <Link to="/lists" onClick={() => window.scrollTo(0, 0)}>LISTAS</Link>
       </div>
       <input type="text" placeholder="🔍" className="barraPesquisa" />
     </nav>
