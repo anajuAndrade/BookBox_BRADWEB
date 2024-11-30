@@ -1,7 +1,7 @@
 import banco
 import sqlite3
 
-class Usuario:
+class Evento:
     
     def __init__(self, nomeEvento, descricao, bd):
         self.nomeEvento = nomeEvento.title()
@@ -18,6 +18,6 @@ class Usuario:
        eventos = bd.cursor.fetchall()
        if eventos:
            for evento in eventos:
-               print(f"ID: {evento[0]}\nNome Evento: {evento[1]}\Descrição: {evento[2]}")
+               print(f"ID: {evento[0]}\nNome Evento: {evento[1]}\nDescrição: {evento[2]}")
        else:
             print("Não há registros")

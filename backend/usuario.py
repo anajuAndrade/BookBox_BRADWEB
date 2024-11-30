@@ -23,4 +23,3 @@ class Usuario:
        else:
             print("Não há registros")
             
-import sqlite3

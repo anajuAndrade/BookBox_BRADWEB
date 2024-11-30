@@ -32,6 +32,7 @@ class Banco:
             CREATE TABLE IF NOT EXISTS lista (
                 idLista INTEGER PRIMARY KEY AUTOINCREMENT,
                 nomeLista TEXT NOT NULL,
+                nomeExibido TEXT NOT NULL,
                 livros TEXT NOT NULL,
                 usuario_idUsuario INTEGER NOT NULL, FOREIGN KEY (usuario_idUsuario) REFERENCES usuario(idUsuario)
             )
