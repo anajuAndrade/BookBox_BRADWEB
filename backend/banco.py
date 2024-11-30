@@ -39,4 +39,16 @@ class Banco:
             '''
         )
     
+    # Verifica se a tabela evento já possui registros
+        self.cursor.execute('SELECT COUNT(*) FROM evento')
+        if self.cursor.fetchone()[0] == 0:  # Se não houver registros, insere os dados
+            self.cursor.execute(
+                '''
+                INSERT INTO evento (nomeEvento, descricao)
+                VALUES 
+                    ('Clube de Leitura', 'Encontro para discussão de livros'),
+                    ('Feira de Ciências', 'Apresentação de projetos científicos'),
+                    ('Semana da Cultura', 'Atividades culturais e artísticas')
+                '''
+            )
         self.conexao.commit()
