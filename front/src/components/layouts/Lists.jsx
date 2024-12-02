@@ -59,9 +59,36 @@ function Lists() {
         'https://m.media-amazon.com/images/I/41HXe7Zdu5L._SY445_SX342_.jpg'
       ],
     },
-
     {
       id: 4,
+      nomePerfil: 'Roger Lopes',
+      nomeLista: 'Quero ler',
+      fotos: [
+        'https://m.media-amazon.com/images/I/91M9xPIf10L.jpg',
+        'https://m.media-amazon.com/images/I/81hCVEC0ExL._AC_UF1000,1000_QL80_.jpg',
+        'https://m.media-amazon.com/images/I/81lQ5N0QwJL._AC_UF1000,1000_QL80_.jpg',
+        'https://harpercollins.com.br/cdn/shop/products/9788595086371.jpg?v=1706884470',
+        'https://m.media-amazon.com/images/I/819js3EQwbL.jpg'
+      ],
+    },
+    {
+      id: 5,
+      nomePerfil: 'Erica Modesto',
+      nomeLista: 'Livros Lidos',
+      fotos: [
+        'https://m.media-amazon.com/images/I/81MmeUtR8BL._UF894,1000_QL80_.jpg',
+        'https://m.media-amazon.com/images/I/71sh8JtiZbL._AC_UF1000,1000_QL80_.jpg',
+        'https://m.media-amazon.com/images/I/71Ils+Co9fL.jpg',
+        'https://m.media-amazon.com/images/I/4152pe7g7xL._AC_UF1000,1000_QL80_.jpg',
+        'https://m.media-amazon.com/images/I/815+4rm+F-L._UF894,1000_QL80_.jpg',
+        'https://m.media-amazon.com/images/I/71M6czhxmTL.jpg',
+        'https://m.media-amazon.com/images/I/81pDk7HwimL._AC_UF350,350_QL50_.jpg',
+        'https://m.media-amazon.com/images/I/71vrSJIKk3L._AC_UF1000,1000_QL80_.jpg'
+      ],
+    },
+    
+    {
+      id: 6,
       nomePerfil: 'Paola Abrantes',
       nomeLista: 'Próximas Leituras',
       fotos: [
@@ -69,6 +96,24 @@ function Lists() {
         'https://m.media-amazon.com/images/I/71mWm5Oq7cL._SY342_.jpg',
         'https://m.media-amazon.com/images/I/71x-i7sKSvL._SY342_.jpg',
         'https://m.media-amazon.com/images/I/51aLmULO+LL._SY445_SX342_.jpg'
+      ],
+    },
+    {
+      id: 7,
+      nomePerfil: 'Isabelly Nathália',
+      nomeLista: 'Quer ler em 2025',
+      fotos: [
+        'https://m.media-amazon.com/images/I/71iHNKF9T9L._AC_UF1000,1000_QL80_.jpg',
+        'https://m.media-amazon.com/images/I/81LTEfXYgcL.jpg?auto_optimize=low&width=655',
+        'https://static.wixstatic.com/media/9b5998_446bdd76fb60453db4c4b226ee29f1b5~mv2.jpg/v1/fill/w_670,h_1005,al_c,q_85,enc_auto/9b5998_446bdd76fb60453db4c4b226ee29f1b5~mv2.jpg',
+        'https://m.media-amazon.com/images/I/516MEoctlxL._SY445_SX342_.jpg',
+        'https://m.media-amazon.com/images/I/41gtsbMlucL._SY445_SX342_.jpg',
+        'https://m.media-amazon.com/images/I/415r6UCQe1L._SY445_SX342_.jpg',
+        'https://m.media-amazon.com/images/I/41HkMO3-RkL._SY445_SX342_.jpg',
+        'https://m.media-amazon.com/images/I/61o5UoMs-hL._SY425_.jpg'
+
+
+
       ],
     }
   ];
