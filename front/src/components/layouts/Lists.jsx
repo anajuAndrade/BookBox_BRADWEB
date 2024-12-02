@@ -1,7 +1,17 @@
+import { useState } from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import '../../css/lists.css'
 
 function Lists() {
+
+  // inicia o pop up fechado
+  const [isOpen, setIsOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    nomeAutor: '',
+    nomeLista: '',
+    livros: '',
+  });
+
   const listaDePerfis = [
     {
       id: 1,
@@ -35,7 +45,7 @@ function Lists() {
     },
 
     {
-      id: 1,
+      id: 3,
       nomePerfil: 'Paola Abrantes',
       nomeLista: 'Livros Lidos em 2024',
       fotos: [
@@ -51,7 +61,7 @@ function Lists() {
     },
 
     {
-      id: 1,
+      id: 4,
       nomePerfil: 'Paola Abrantes',
       nomeLista: 'Próximas Leituras',
       fotos: [
@@ -63,32 +73,107 @@ function Lists() {
     }
   ];
 
-  return ( 
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+    if (isOpen) {
+      // Limpa os dados do formulário ao fechar o pop-up
+      setFormData({ nomeAutor: '', nomeLista: '', livros: '' });
+    }
+  };
+
+  // Metodo para manipular os eventos de inserir listas, pega os dados digitados e transforma o estado do form nesse valor
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Dados do formulário:', formData);
+    togglePopup(); // Fechar o pop-up após o envio
+    alert("Lista enviada! Em breve sua lista irá aparecer aqui!")
+  };
+
+  /* Mostrar perfis */
+  return (
     <div className="lists-container">
       <h1 className="title">LISTAS</h1>
-        {listaDePerfis.map((perfil) => (
-          <div key={perfil.id} className="profile-section">
-            <div className="profile-header">
-              <i class="bi bi-person-circle profile-icon"></i>
-              <div className="profile-info">
-                <h3 id='nameProfile'>{perfil.nomePerfil}</h3>
-                <h3>{perfil.nomeLista}</h3>
-              </div>
-            </div>
-
-            <div className="photo-grid">
-              {perfil.fotos.map((foto, index) => (
-                <img key={index} src={foto} className="photo-item" />
-              ))}
+      {listaDePerfis.map((perfil) => (
+        <div key={perfil.id} className="profile-section">
+          <div className="profile-header">
+            <i className="bi bi-person-circle profile-icon"></i>
+            <div className="profile-info">
+              <h3 id='nameProfile'>{perfil.nomePerfil}</h3>
+              <h3>{perfil.nomeLista}</h3>
             </div>
           </div>
-        ))}
+
+          <div className="photo-grid">
+            {perfil.fotos.map((foto, index) => (
+              <img key={index} src={foto} className="photo-item" />
+            ))}
+          </div>
+        </div>
+      ))}
 
       {/* Botão de Adicionar */}
-      <div className="add-list-icon">
+      <div className="add-list-icon" onClick={togglePopup}>
         <i className="bi bi-plus"></i>
       </div>
 
+      {/* Pop-up Condicional */}
+      {isOpen && (
+        <div className="popup-overlay">
+          <div className="popup-content">
+            <button className="close-btn" onClick={togglePopup}>
+              <i className="bi bi-x"></i>
+            </button>
+            {/* exibe o pop up */}
+            <h2>Adicione uma nova lista!</h2>
+            <form onSubmit={handleSubmit}>
+              <div className="form-group">
+                <label htmlFor="nomeAutor">Nome</label>
+                <input
+                  type="text"
+                  id="nomeAutor"
+                  name="nomeAutor"
+                  value={formData.nomeAutor}
+                  onChange={handleChange}
+                  placeholder="Digite seu nome"
+                  required
+                />
+              </div>
+              {/* pega os valores */}
+              <div className="form-group">
+                <label htmlFor="nomeLista">Nome da Lista</label>
+                <input
+                  type="text"
+                  id="nomeLista"
+                  name="nomeLista"
+                  value={formData.nomeLista}
+                  onChange={handleChange}
+                  placeholder="Digite o nome da sua lista"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="livros">Livros a Adicionar</label>
+                <textarea
+                  id="livros"
+                  name="livros"
+                  value={formData.livros}
+                  onChange={handleChange}
+                  placeholder="Adicione os livros separados por vírgula"
+                  required
+                />
+              </div>
+              <div className="form-actions">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
