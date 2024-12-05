@@ -1,12 +1,12 @@
-import { Container, Row, Col } from 'react-bootstrap'
-import qrCode from '../../assets/qrCode.jpeg'
-import evParceirosex from '../../assets/evParceirosex.png'
-import "../../css/comunidade.css"
+import { Container, Row, Col } from 'react-bootstrap';
+import qrCode from '../../assets/qrCode.jpeg';
+import "../../css/comunidade.css";
+import eventos from '../../../../backend/arquivos/eventos';
 
 export default function Comunidade() {
   return (
     <>
-      <div class="comunidade">
+      <div className="comunidade">
         <Container className="my-5">
           <div id="header" className="text-center mb-4">
             <h1 id="titulo">COMUNIDADE</h1>
@@ -26,53 +26,28 @@ export default function Comunidade() {
           </div>
 
           <Row className="justify-content-center">
-            <Col md={4} className="mb-4 text-center">
-              <div
-                className="bg-light rounded mx-auto"
-                style={{
-                  width: '75%',
-                  paddingTop: '75%',
-                  position: 'relative',
-                  overflow: 'hidden'
-                }}
-              >
-                <img src={evParceirosex} alt="Imagem do Evento" className="img-fluid rounded" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
-              </div>
-              <p className="mt-2 text-center"><strong>NOME</strong></p>
-              <p className="text-center">SOBRE O EVENTO</p>
-            </Col>
-
-            <Col md={4} className="mb-4 text-center">
-              <div
-                className="bg-light rounded mx-auto"
-                style={{
-                  width: '75%',
-                  paddingTop: '75%',
-                  position: 'relative',
-                  overflow: 'hidden'
-                }}
-              >
-                <img src={evParceirosex} alt="Imagem do Evento" className="img-fluid rounded" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
-              </div>
-              <p className="mt-2 text-center"><strong>NOME</strong></p>
-              <p className="text-center">SOBRE O EVENTO</p>
-            </Col>
-
-            <Col md={4} className="mb-4 text-center">
-              <div
-                className="bg-light rounded mx-auto"
-                style={{
-                  width: '75%',
-                  paddingTop: '75%',
-                  position: 'relative',
-                  overflow: 'hidden'
-                }}
-              >
-                <img src={evParceirosex} alt="Imagem do Evento" className="img-fluid rounded" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
-              </div>
-              <p className="mt-2 text-center"><strong>NOME</strong></p>
-              <p className="text-center">SOBRE O EVENTO</p>
-            </Col>
+            {eventos.map(evento => (
+              <Col key={evento.idEvento} md={4} className="mb-4 text-center">
+                <div
+                  className="bg-light rounded mx-auto"
+                  style={{
+                    width: '75%',
+                    paddingTop: '75%',
+                    position: 'relative',
+                    overflow: 'hidden'
+                  }}
+                >
+                  <img
+                    src={evento.fotos}
+                    alt={`Imagem do evento ${evento.nomeEvento}`}
+                    className="img-fluid rounded"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }}
+                  />
+                </div>
+                <p className="mt-2 text-center"><strong>{evento.nomeEvento}</strong></p>
+                <p className="text-center">{evento.descricao}</p>
+              </Col>
+            ))}
           </Row>
         </Container>
       </div>
