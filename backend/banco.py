@@ -46,9 +46,9 @@ class Banco:
                 '''
                 INSERT INTO evento (nomeEvento, descricao)
                 VALUES 
-                    ('Clube de Leitura', 'Encontro para discussão de livros'),
-                    ('Feira de Ciências', 'Apresentação de projetos científicos'),
-                    ('Semana da Cultura', 'Atividades culturais e artísticas')
+                    ('Clube de Leitura', 'Encontro para discussao de livros'),
+                    ('Feira de Ciencias', 'Apresentacao de projetos cientificos'),
+                    ('Semana da Cultura', 'Atividades culturais e artisticas')
                 '''
             )
         self.conexao.commit()
