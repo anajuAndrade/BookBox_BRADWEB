@@ -5,11 +5,9 @@ import os
 def exportar_eventos_para_js(bd_nome, pasta_base, pasta, arquivo_js):
     caminho_pasta = os.path.join(pasta_base, pasta)
     
-    # Criar a pasta se não existir
     if not os.path.exists(caminho_pasta):
         os.makedirs(caminho_pasta)
     
-    # Conectar ao banco de dados
     conexao = sqlite3.connect(bd_nome)
     cursor = conexao.cursor()
     
@@ -28,10 +26,9 @@ def exportar_eventos_para_js(bd_nome, pasta_base, pasta, arquivo_js):
     
     caminho_arquivo_js = os.path.join(caminho_pasta, arquivo_js)
     
-    # Escrever os dados JSON em um arquivo JavaScript
     with open(caminho_arquivo_js, 'w') as arquivo:
-        arquivo.write(f"const eventos = {eventos_json};\n")
-
+        arquivo.write(f"const eventos = {eventos_json};\nexport default eventos;\n")
+    
     conexao.close()
 
 bd_nome = "BancoBookBox"
