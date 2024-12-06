@@ -58,11 +58,11 @@ class Banco:
                 ''',
                 [
                     ('Clube de Leitura', 'Encontro para discussao de livros', 'evento1.jpg'),
-                    ('Feira de Ciências', 'Apresentação de projetos científicos', 'evento2.jpg'),
-                    ('Semana da Cultura', 'Atividades culturais e artísticas', 'evento3.jpg'),
-                    ('Lançamento de Livro', 'Venha ver o novo lançamento da autora', 'evento4.jpg'),
+                    ('Feira de Ciencias', 'Apresentação de projetos cientificos', 'evento2.jpg'),
+                    ('Semana da Cultura', 'Atividades culturais e artisticas', 'evento3.jpg'),
+                    ('Lancamento de Livro', 'Venha ver o novo lancamento da autora', 'evento4.jpg'),
                     ('Clube do Livro', 'Debates sobre livros lidos na semana', 'evento1.jpg'),
-                    ('Sessão de Autógrafos', 'Venha conhecer o autor do seu livro favorito', 'evento5.jpg')
+                    ('Sessao de Autografos', 'Venha conhecer o autor do seu livro favorito', 'evento5.jpg')
                 ]
             )
 
