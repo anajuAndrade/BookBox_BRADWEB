@@ -31,7 +31,7 @@ def exportar_eventos_para_js(bd_nome, pasta_base, pasta, arquivo_js):
     
     conexao.close()
 
-bd_nome = "BancoBookBox"
+bd_nome = "BancoBookBox.db"
 pasta_base = "backend"
 pasta = "arquivos"
 arquivo_js = "eventos.js"

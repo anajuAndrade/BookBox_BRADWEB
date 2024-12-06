@@ -4,7 +4,7 @@ import lista
 import evento
 
 # usuario
-bd = "BancoBookBox"
+bd = "BancoBookBox.db"
 banco_novo = banco.Banco(bd)
 
 nomeUsuario = input("Insira seu nome: ")

@@ -1,45 +1,33 @@
-import evento1 from '../fotosEventos/evento1.jpg'
-import evento2 from '../fotosEventos/evento2.jpg'
-import evento3 from '../fotosEventos/evento3.jpg'
-import evento4 from '../fotosEventos/evento4.jpg'
-import evento5 from '../fotosEventos/evento5.jpg'
-
 const eventos = [
     {
         "idEvento": 1,
         "nomeEvento": "Clube de Leitura",
-        "descricao": "Encontro para discussao de livros",
-        "fotos": evento1
+        "descricao": "Encontro para discussao de livros"
     },
     {
         "idEvento": 2,
-        "nomeEvento": "Feira de Ciencias",
-        "descricao": "Apresentacao de projetos cientificos",
-        "fotos": evento2
+        "nomeEvento": "Feira de Ciências",
+        "descricao": "Apresentação de projetos científicos"
     },
     {
         "idEvento": 3,
         "nomeEvento": "Semana da Cultura",
-        "descricao": "Atividades culturais e artisticas",
-        "fotos": evento3
+        "descricao": "Atividades culturais e artísticas"
     },
     {
         "idEvento": 4,
-        "nomeEvento": "Lancamento de livro",
-        "descricao": "Venha ver o novo lancamento da autora",
-        "fotos": evento4
+        "nomeEvento": "Lançamento de Livro",
+        "descricao": "Venha ver o novo lançamento da autora"
     },
     {
         "idEvento": 5,
         "nomeEvento": "Clube do Livro",
-        "descricao": "Debates sobre os lidos da semana",
-        "fotos": evento1
+        "descricao": "Debates sobre livros lidos na semana"
     },
     {
         "idEvento": 6,
-        "nomeEvento": "Sessao de autografos",
-        "descricao": "Venha conhecer o autor do seu livro favorito",
-        "fotos": evento5
+        "nomeEvento": "Sessão de Autógrafos",
+        "descricao": "Venha conhecer o autor do seu livro favorito"
     }
 ];
 export default eventos;
