@@ -16,9 +16,7 @@
   background-image: url(../assets/fundoHome.jpg);
 }
 
-.nomeSite:hover {
-  text-decoration: underline;
-}
+
 
 .telasNavegacao {
   display: flex;

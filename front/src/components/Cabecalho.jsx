@@ -10,7 +10,6 @@ export default function Cabecalho() {
         <Link to="/Comunidade" onClick={() => window.scrollTo(0, 0)}>COMUNIDADE</Link>
         <Link to="/lists" onClick={() => window.scrollTo(0, 0)}>LISTAS</Link>
       </div>
-      <input type="text" placeholder="🔍" className="barraPesquisa" />
     </nav>
   );
 }
