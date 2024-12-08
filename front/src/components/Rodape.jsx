@@ -7,11 +7,11 @@ export default function Rodape() {
 
                 <div className="informações">
                     <h4>Mapa do Site</h4>
-                    <div class='rotas'>
-                        <Link to="/" class='links' onClick={() => window.scrollTo(0, 0)}>Home<br></br></Link>
-                        <Link to="/Generos" class='links' onClick={() => window.scrollTo(0, 0)}>Gêneros<br></br></Link>
-                        <Link to="/Comunidade" class='links' onClick={() => window.scrollTo(0, 0)}>Comunidade<br></br></Link>
-                        <Link to="/lists" class='links' onClick={() => window.scrollTo(0, 0)}>Listas<br></br></Link>
+                    <div className='rotas'>
+                        <Link to="/" className='links' onClick={() => window.scrollTo(0, 0)}>Home<br></br></Link>
+                        <Link to="/Generos" className='links' onClick={() => window.scrollTo(0, 0)}>Gêneros<br></br></Link>
+                        <Link to="/Comunidade" className='links' onClick={() => window.scrollTo(0, 0)}>Comunidade<br></br></Link>
+                        <Link to="/lists" className='links' onClick={() => window.scrollTo(0, 0)}>Listas<br></br></Link>
                     </div>
                 </div>
 
@@ -27,19 +27,19 @@ export default function Rodape() {
                 <div className="informações">
                     <h4>Siga-nos</h4>
                     <ul className="social-links">
-                        <div class='falsoLink'>
+                        <div className='falsoLink'>
                             <li>Facebook</li>
                         </div>
-                        <div class='falsoLink'>
+                        <div className='falsoLink'>
                             <li>Twitter</li>
                         </div>
-                        <div class='falsoLink'>
+                        <div className='falsoLink'>
                             <li>Instagram</li>
                         </div>
-                        <div class='falsoLink'>
+                        <div className='falsoLink'>
                             <li>YouTube</li>
                         </div>
-                        <div class='falsoLink'>
+                        <div className='falsoLink'>
                             <li>LinkedIn</li>
                         </div>
                     </ul>
@@ -50,16 +50,16 @@ export default function Rodape() {
             <div className="infosGerais">
                 <p>Copyright © 2024 BookBox. Todos os direitos reservados.</p>
                 <ul className="termos">
-                    <div class='falsoLink'>
+                    <div className='falsoLink'>
                         <li>Acessibilidade</li>
                     </div>
-                    <div class='falsoLink'>
+                    <div className='falsoLink'>
                         <li>Termos & Condições</li>
                     </div>
-                    <div class='falsoLink'>
+                    <div className='falsoLink'>
                         <li>Privacidade</li>
                     </div>
-                    <div class='falsoLink'>
+                    <div className='falsoLink'>
                         <li>Legal</li>
                     </div>
                 </ul>

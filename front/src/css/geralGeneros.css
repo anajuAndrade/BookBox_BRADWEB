@@ -1,0 +1,48 @@
+.book-grid {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .grid-item {
+    width: 100px;
+    height: 150px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .book-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .upload-placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .upload-placeholder input {
+    display: none;
+  }
+  

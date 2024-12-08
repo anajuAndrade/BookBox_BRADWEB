@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import "../../css/generos.css"
+import Narrativo from "./Narrativo.jsx"
 
 export default function Generos() {
     return (
