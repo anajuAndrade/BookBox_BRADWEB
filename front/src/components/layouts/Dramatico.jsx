@@ -45,7 +45,7 @@ const Dramatico = () => {
 
   return (
     <div className="container">
-      <h1 className="titulo">LÍRICO</h1>
+      <h1 className="titulo">DRAMÁTICO</h1>
       {Object.entries(categorias).map(([categoria, imagens]) => (
         <div key={categoria} className="categoria">
           <h2 className="subtitulo">{categoria}</h2>
