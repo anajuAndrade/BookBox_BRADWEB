@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 140px 0 64px 0; /* Verificar se está ok */
+}
+
+.titulo {
+  margin: 0 0 60px 0; /* Verificar se está ok */
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 5rem;
+}
+
+.categoria {
+  margin-bottom: 60px;
+}
+
+.livros {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 80%;
+}
+
+.card {
+  width: 120px;
+  height: 180px;
+  margin: 0 10px 0 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
