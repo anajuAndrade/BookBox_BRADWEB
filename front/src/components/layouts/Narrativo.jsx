@@ -50,7 +50,7 @@ const Narrativo = () => {
       'https://http2.mlstatic.com/D_NQ_NP_721511-MLB20567637142_012016-O.webp',
       'https://http2.mlstatic.com/D_NQ_NP_721511-MLB20567637142_012016-O.webp',
       'https://http2.mlstatic.com/D_NQ_NP_721511-MLB20567637142_012016-O.webp'
-    ],
+    ]
   };
 
   return (

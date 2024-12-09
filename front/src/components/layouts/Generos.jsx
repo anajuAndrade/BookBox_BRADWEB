@@ -98,28 +98,28 @@ export default function Generos() {
                     <span>DRAMÁ<br /> TICO</span>
                 </div>
 
-                <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                <Link to="/Dramatico" onClick={() => window.scrollTo(0, 0)}>
                 <div className="SubGenero sub1">
                     <span>TRAGÉDIA</span>
                     <span className="Icone">→</span>
                 </div>
                 </Link>
 
-                <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                <Link to="/Dramatico" onClick={() => window.scrollTo(0, 0)}>
                 <div className="SubGenero sub2">
                     <span>COMÉDIA</span>
                     <span className="Icone">→</span>
                 </div>
                 </Link>
 
-                <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                <Link to="/Dramatico" onClick={() => window.scrollTo(0, 0)}>
                 <div className="SubGenero sub3">
                     <span>FARSA</span>
                     <span className="Icone">→</span>
                 </div>
                 </Link>
 
-                <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                <Link to="/Dramatico" onClick={() => window.scrollTo(0, 0)}>
                 <div className="SubGenero sub4">
                     <span>AUTO</span>
                     <span className="Icone">→</span>
