@@ -50,6 +50,10 @@
     background-color: #e0e0e0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .Icone {
     position: absolute;
     top: 10px;
