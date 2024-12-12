@@ -13,7 +13,7 @@ export default function Comunidade() {
           </div>
           <Row className="justify-content-center align-items-center">
             <Col md="auto">
-              <img src={qrCode} alt="QR Code para o grupo no WhatsAPP" className="img-fluid" />
+              <img src={qrCode} alt="QR Code para o grupo no WhatsAPP" className="img-fluid-qr" />
             </Col>
             <Col md="6" className="text-start">
               <p><strong>PARTICIPE DO NOSSO CLUBE DO LIVRO NO GRUPO DO WHATSAPP!</strong></p>

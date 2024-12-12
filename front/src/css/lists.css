@@ -56,21 +56,6 @@
   text-decoration: underline;
 }
 
-/* Simbolo de Verificado */
-
-.verified-icon {
-  background-color: #1da1f2;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-
 /* Lista de Fotos */
 
 .photo-grid {
@@ -88,6 +73,7 @@
 }
 
 /* Botão de Adicionar Lista */
+
 .add-list-icon {
   position: fixed;
   bottom: 20px;
@@ -110,6 +96,7 @@
 }
 
 /* Pop-up */
+
 .popup-overlay {
   position: fixed;
   top: 0;
@@ -145,6 +132,7 @@
 }
 
 /* Formulário */
+
 form {
   display: block;
 }
@@ -191,4 +179,68 @@ button[type="submit"] {
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 4rem;
+    margin: 116px 0 33px 0;
+  }
+
+  .profile-icon {
+    margin-right: 0;
+    font-size: 2.5rem;
+  }
+
+  .profile-info h3 {
+    font-size: 1.2rem;
+  }
+
+  #nameProfile {
+    font-size: 1.5rem;
+  }
+
+  .photo-grid {
+    flex-wrap: wrap;
+  }
+
+  .photo-item {
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+  }
+
+  .add-list-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2.8rem;
+    margin: 86px 0 15px 0;
+  }
+
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .photo-item {
+    width: 100px;
+    height: 140px;
+  }
+
+  .add-list-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
 }
