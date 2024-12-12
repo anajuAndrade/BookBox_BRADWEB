@@ -1,3 +1,5 @@
+/* Configurações gerais */
+
 .Generos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -29,6 +31,8 @@
     font-size: 3rem;
     letter-spacing: .2rem;
 }
+
+/* Cards */
 
 .sub1 {
     background-color: #DEB887;
@@ -70,6 +74,8 @@ a {
     justify-content: center;
 }
 
+/* Espaçamento - por conta do display grid */
+
 .Espaco {
     margin-bottom: 50%;
 }
@@ -77,6 +83,8 @@ a {
 .EspacoTelaPeq {
     display: none;
 }
+
+/* Responsividade */
 
 @media (max-width: 768px) {
     .Generos {

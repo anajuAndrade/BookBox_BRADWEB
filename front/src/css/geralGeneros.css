@@ -1,14 +1,16 @@
+/* Configurações gerais */
+
 .container {
   display: grid;
   place-items: center;
   text-align: center;
   max-width: 100%;
   min-height: 100vh;
-  margin: 140px 0 64px 0; /* Verificar se está ok */
+  margin: 140px 0 64px 0;
 }
 
 .titulo {
-  margin: 0 0 60px 0; /* Verificar se está ok */
+  margin: 0 0 60px 0;
   font-size: 5rem;
   font-weight: bold;
 }
@@ -38,4 +40,53 @@
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 5px;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 4rem;
+  }
+
+  .subtitulo {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .livros {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .card {
+    width: 120px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 110px 0 0 0;
+  }
+
+  .titulo {
+    margin: 0 0 35px 0;
+    font-size: 2.8rem;
+  }
+
+  .subtitulo {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+
+  .livros {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .card {
+    width: 90px;
+    height: 125px;
+  }
 }

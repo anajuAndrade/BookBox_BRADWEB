@@ -1,3 +1,5 @@
+/* Configurações gerais */
+
 .apresentacao {
     display: flex;
     flex-direction: column;
@@ -27,6 +29,8 @@
     font-size: 1.5rem;
     margin: -8px 0;
 }
+
+/* Responsividade */
 
 @media (max-width: 768px) {
     .apresentacao h1 {
