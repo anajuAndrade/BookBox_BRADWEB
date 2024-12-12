@@ -48,6 +48,7 @@ export default function Generos() {
                 <div className="Espaco"></div>
                 <div className="Espaco"></div>
                 <div className="Espaco"></div>
+                <div className="EspacoTelaPeq"></div>
 
                 {/*Gênero 2*/}
                 <div className="Genero Lírico">
@@ -92,6 +93,7 @@ export default function Generos() {
                 <div className="Espaco"></div>
                 <div className="Espaco"></div>
                 <div className="Espaco"></div>
+                <div className="EspacoTelaPeq"></div>
 
                 {/*Gênero 3*/}
                 <div className="Genero Dramático">

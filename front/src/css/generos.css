@@ -73,3 +73,67 @@ a {
 .Espaco {
     margin-bottom: 50%;
 }
+
+.EspacoTelaPeq {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .Generos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        max-width: 85%;
+    }
+
+    .Genero {
+        font-size: 2rem;
+        height: 140px;
+    }
+
+    .SubGenero {
+        height: 140px;
+        font-size: 0.9rem;
+    }
+
+    .Icone {
+        font-size: 0.6rem;
+        width: 18px;
+        height: 18px;
+    }
+
+    .Espaco {
+        margin-bottom: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    .Generos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 90%;
+    }
+
+    .Genero {
+        font-size: 1.8rem;
+        height: 120px;
+    }
+
+    .SubGenero {
+        height: 120px;
+        font-size: 0.85rem;
+    }
+
+    .Icone {
+        font-size: 0.5rem;
+        width: 16px;
+        height: 16px;
+    }
+
+    .Espaco {
+        margin-bottom: 30%;
+    }
+
+    .EspacoTelaPeq {
+        display: block;
+    }
+}
