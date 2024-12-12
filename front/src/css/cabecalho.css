@@ -16,8 +16,6 @@
   background-image: url(../assets/fundoHome.jpg);
 }
 
-
-
 .telasNavegacao {
   display: flex;
   gap: 20px;
@@ -41,9 +39,53 @@
   transition: width 0.3s ease;
 }
 
-/* Realce */
 .barraPesquisa:focus {
   width: 200px;
   outline: none;
   border-color: #666;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  .cabecalho {
+    padding: 15px;
+    font-size: 1.2em;
+  }
+
+  .nomeSite {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+
+  .telasNavegacao {
+    gap: 15px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .cabecalho {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .nomeSite {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+
+  .telasNavegacao {
+    margin-top: 0;
+    gap: 8px;
+  }
+
+  .barraPesquisa {
+    margin-top: 0;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .barraPesquisa:focus {
+    width: 100%;
+  }
 }
