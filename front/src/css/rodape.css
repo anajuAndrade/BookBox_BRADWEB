@@ -1,7 +1,7 @@
 /* Configurações gerais */
 
 .footer {
-    max-width: 100% !important;
+    max-width: 100%;
     background-color: var(--cinzaClaro);
     font-family: 'Arial', sans-serif;
     color: var(--cinzaEscuro);
@@ -118,5 +118,31 @@
     .termos {
         flex-direction: column;
         gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footerInfos {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .informações {
+        margin: 0;
+        min-width: unset;
+    }
+
+    .termos {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .infosGerais {
+        font-size: 10px;
+    }
+
+    .nota {
+        font-size: 10px;
     }
 }
